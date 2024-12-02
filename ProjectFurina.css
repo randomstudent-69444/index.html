@@ -1,0 +1,517 @@
+
+body { margin: 0 auto;
+	   width: 100%;
+	   position: relative;
+}
+
+.head { width: 100%;
+	    height: 70px;
+	    background-color: deepskyblue;
+	    background-image: linear-gradient(to right, deepskyblue, royalblue, darkblue);
+	    margin-top: -16px;
+		margin: 0 auto;
+		position: relative;
+}
+
+.slider {  background-color: transparent;
+		   border: none;
+		   cursor: pointer;
+		   background-repeat: no-repeat;
+    	   padding-right: 50px;
+    	   padding-left: 50px;
+    	   font-size: 20px;
+    	   height: 30px;
+    	   text-align: center;
+    	   color: white;
+    	   font-family: Cambria;
+    	   position: relative;
+    	   left: 800px;
+    	   bottom: 20px;
+}
+
+#dashboardLog { background-color: skyblue;
+	  		 	width: 120px;
+	  		 	height: 30px;
+	  		 	position: relative;
+	  		 	left: 825px;
+	  		 	bottom: 22px;
+	  		 	border: none;
+	  		 	border-radius: 25px;
+	  		 	cursor: pointer;
+
+ }
+			 
+
+ #search { position: absolute;
+ 		   margin-left: 500px;
+ 		   border-radius: 10px;
+ 		   width: 250px;
+ 		   height: 25px;
+ 		   margin-top: 25px;
+
+  }
+
+  #img1 { width: 80px;
+  		  height: 60px;
+  		  margin-left: 55px;
+  		  margin-top: 5px;
+   }
+
+#img2 {  width: 180px;
+  		 height: 55px;
+  		 margin-left: 40px;
+  		 margin-top: 5px;}
+
+.show { width: 100%;
+		height: 600px;
+		background-color: darkblue;
+		top: 0px;
+		position: relative;
+ }
+
+ .slidepics { text-align: center;
+			 width: 100%;
+			 height: 600px;
+			 margin: 0 auto;
+		  	 position: relative;
+
+ }
+
+.slider:hover { border-bottom: 3px solid white;
+}
+
+ .lefty { position: absolute; 
+ 		  margin-top: -300px;
+ 		  background-color: black;
+ 		  height: 45px;
+ 		  width: 30px;
+ 		  color: white;
+ 		  z-index: 3;
+  }
+
+ .righty { position: absolute;
+ 		   margin-left: 1835px;
+ 		   margin-top: -300px;
+ 		   background-color: black;
+ 		   height: 45px;
+ 		   width: 30px;
+ 		   color: white;
+ 		   z-index: 3;
+
+  }
+
+  .intro { border: 3px solid white; 
+  		   height: 450px;
+  		   width: 800px;
+  		   position: absolute;
+  		   z-index: 2;
+  		   left: 1000px;
+  		   top: 75px;
+
+
+  }
+
+  #darken { height: 600px;
+  		    width: 50%;
+  		    background-color: black;
+  		    opacity: 0.5;
+  		    position: absolute;
+  		    z-index: 1;
+  		    left: 940px;
+
+
+  }
+
+  #ghjk { position: relative;
+  		  color: ghostwhite;
+  		  font-size: 30px;
+  		  left: 250px;
+  		  top: 20px;
+  		  line-height: 0.1;
+   }
+
+  #oeke {position: relative;
+  		 color: ghostwhite;
+  		 font-size: 90px;
+  		 left: 65px;
+  		 bottom: 40px;
+  }
+
+ #cdoc { width: 180px;
+ 	     height: 40px;
+ 	     margin-left: 570px;
+ 	     margin-top: -90px;
+ 	     position: absolute;
+ 	     border-radius: 20px;
+ 	     border: none;
+ 	     background-color: royalblue;
+ 	     color: white;
+ 	     cursor: pointer;
+  }
+
+ #dashboardLog:hover { border: 2px solid white; }
+
+  h6 {
+  	   bottom: 80px;
+  	   position: absolute;
+  }
+
+  #kdoa {position: relative; 
+  		 bottom: 100px;
+  		 left: 510px;
+  		 font-size: 20px;
+  		 color: white;
+  		 font-family: Cambria;
+
+  }
+
+  #homepage { display: block;
+}
+  #aboutus { display: none; 
+  					position: relative;
+  }
+  #contact { display: none; 
+  }
+
+
+ .LEgallery2 { width: 1775px;
+	         height: 540px;
+	         background-color: deepskyblue;
+	         margin-top: 20px;
+	         position: relative;
+	         display: flex;
+	         border-radius: 20px;
+
+ }
+
+ .LEgallery3 { width: 95%;
+	         height: 600px;
+	         background-color: deepskyblue;
+	         margin-top: 20px;
+	         position: relative;
+	         display: flex;
+	         border-radius: 20px;
+
+ }
+
+ #video { left: 20px; 
+ 		  position: absolute;
+ 		  top: 60px;
+
+ }
+
+ #h2a { margin-left: 350px; 
+ 		position: absolute;
+ }
+
+ #h2b { margin-left: 1240px;
+ 	    position: absolute;
+
+
+  }
+
+.mapouter {margin-left: 900px;
+		   position: absolute;
+		   top: 60px;
+}
+
+.footer { background-color: midnightblue; 
+	      height: 250px;
+	      width: 100%;
+	      position: relative;
+	      top: 20px;
+}
+
+#h2c { left: 215px;
+	   top: 50px;
+	   color: whitesmoke;
+	   font-size: 60px;
+	   position: relative;
+	   line-height: 0.3;
+
+ }
+
+ #depth {position: absolute;
+ 				 left: 810px;
+ 				 color: white;
+
+ }
+
+ .quadimg { position: relative;
+ 	        background-color: white;
+ 	        margin-left: 22px;
+ 	        width: 270px;
+ 	        text-align: center;
+ 	        height: 460px;
+ 	        top: 60px;
+ 	        border-radius: 30px;
+  }
+
+  .quintpic { width: 250px;
+  	          height: 250px;
+  	          border-radius: 20px;
+  	          margin-top: 10px;
+   }
+
+   .sixbutton { width: 180px;
+ 	     height: 40px;
+ 	     right: 45px;
+ 	     margin-top: -10px;
+ 	     position: absolute;
+ 	     background-color: deepskyblue;
+ 	     border-radius: 20px;
+ 	     border: none;
+ 	     color: white;
+ 	     cursor: pointer;
+ 	     z-index: 1;
+  }
+
+ #em { font-size: 20px;
+ 	   color: white;
+ 	   left: 220px;
+ 	   bottom: 50px;
+ 	   position: absolute;
+
+  }
+
+ #te { font-size: 20px;
+ 	   color: white;
+ 	   left: 220px;
+ 	   bottom: 20px;
+ 	   position: absolute;
+  }
+
+#loginhud { position: absolute;
+			position: fixed;
+			text-align: center;
+			width: 1100px;
+			height: 750px;
+			display: none;
+			top: 100px;
+			z-index: 8;
+			background-color: white;
+			left: 380px;
+			border-radius: 40px;
+			border: 2px solid black;
+}
+
+.darkin { height: 2500px;
+			width: 1000%;
+			background-color: black;
+			opacity: 0.6;
+			position: absolute;
+			z-index: 2;
+			bottom: 1px;
+			display: none;
+}
+
+.ebo { border: 2px solid gray;
+	   width: 800px;
+	   height: 30px;
+
+}
+
+#anony { width: 400px;
+	     height: 400px;
+}
+
+#ekiss { background-color: black;
+		 color: black;
+		 position: absolute;
+		 width: 40px;
+		 height: 40px;
+		 border: 1px solid white;
+		 left: 1070px;
+		 top: -8px;
+		 border-radius: 30px;
+		 color: white;
+		 font-size: 15px;
+		 cursor: pointer;
+
+
+}
+
+#lo {height: 80px;
+	   width: 80px;
+	   position: relative;
+	   left: 400px;
+	   bottom: 120px;
+
+}
+
+.dpkg {width: 500px;
+			 height: 300px;
+			 border: 3px solid gray;
+			 position: relative;
+			 left: 250px;
+			 bottom: 100px;
+			 text-align: center;
+
+}
+
+.suppic { margin-top: 30px;
+			    width: 140px;
+			    height: 140px;
+			    position: relative;
+
+ }
+
+ .PpP { line-height: 0.4;
+ 				font-size: 25px;
+  }
+
+  .customsupp1 { background-color: deepskyblue;
+              	position: relative;
+              	width: 98%;
+              	height: 600px;
+              	left: 17px;
+              	top: 20px;
+              	border-radius: 20px;
+
+   }
+
+  .customsupp2 { background-color: skyblue;
+  	           	 position: relative;
+  	           	 top: 20px;
+  	           	 width: 90%;
+  	           	 height: 900px;
+  	           	 border-radius: 20px;
+
+   }
+
+   #con { font-size: 40px; 
+   		  	font-family: Roboto, sans-serif; 
+   			  right: 450px; 
+   			  top: 40px; 
+   			  position: relative;
+   			}
+
+  .didntask { height: 800px;
+  						width: 350px;
+  						position: relative;
+  						left: 600px;
+  						bottom: 300px;
+  						text-align: left;
+
+   }
+
+   .Q1 { width: 200px;
+   			 font-size: 20px;
+   			 border-bottom: 2px solid black;
+   			 height: 75px;
+
+    }
+
+.downer { width: 50px;
+					height: 50px;
+					left: 200px;
+					background-color: transparent;
+					position: relative;
+					bottom: 75px;
+					border: none;
+
+ }
+
+ .upper { width: 50px;
+ 	height: 50px;
+ 	cursor: pointer;
+
+
+  }
+
+  #pdk { right: 190px;
+  			 position: relative;
+  			 top: 20px;
+  			 font-size: 20px;
+
+   }
+
+ #inputcon1 { left: 60px;
+ 				  top: 30px;
+ 				  width: 700px;
+ 				  height: 40px;
+ 				  position: relative;
+ 				  font-size: 15px;
+ 				  border-radius: 10px;
+ 				  background-color: transparent;
+ 				  border: 2px solid black;
+
+
+  }
+
+#inputcon2 { right: 652px;
+		      top: 100px;
+ 				  width: 700px;
+ 				  height: 40px;
+ 				  position: relative;
+ 				  font-size: 15px;
+ 				  border-radius: 10px;
+ 				  background-color: transparent;
+ 				  border: 2px solid black;
+
+  }
+
+#inputcon3 { right: 305px;
+					top: 130px;
+ 				  width: 700px;
+ 				  height: 300px;
+ 				  position: relative;
+ 				  font-size: 15px;
+ 				  border-radius: 10px;
+ 				  background-color: transparent;
+ 				  border: 2px solid black;
+
+  }
+
+ #side8 { height: 45px;
+        	width: 45px;
+        	position: absolute;
+        	border-radius: 10px;
+        	right: 800px;
+        	cursor: pointer;
+        	background-color: transparent;
+        	top: 215px;
+  }
+
+#finale { position: absolute;
+					top: 620px;
+					right: 1380px;
+					background-color: royalblue;
+					border-radius: 10px;
+					length: 150px;
+					height: 35px;
+					border: none;
+
+ }
+
+ #finale:hover { border: 2px solid white;
+ }
+
+ .terminus { right: 480px;
+ 						 top: 190px;
+ 						 position: relative;
+  }
+
+  #fr { left: 750px;
+  			position: absolute;
+  			font-size: 20px;
+ 	      color: white;
+ 	      top: 170px;
+
+   }
+
+   #privacy { left: 1020px;
+  					position: absolute;
+  					font-size: 20px;
+ 	     	  	color: skyblue;
+ 	     		  top: 190px; 
+ 	     		  cursor: pointer;
+ 	     		}
+
+ 	  #terms { left: 1170px;
+  					position: absolute;
+  					font-size: 20px;
+ 	     	  	color: skyblue;
+ 	     		  top: 190px; 
+ 	     		  cursor: pointer;
+ 	     		}

@@ -1,0 +1,186 @@
+body { background-color: lightskyblue; }
+
+
+.sidemenu { width: 250px;
+			height: 1500px;
+			background-color: royalblue;
+			position: fixed;
+ }
+
+#jaja { width: 130px;
+		height: 130px;
+		left: 60px;
+		top: 15px;
+		position: absolute;
+ }
+
+.button1 { top: 180px;
+	       margin-top: 5px;
+     	   position: relative;
+     	   width: 250px;
+     	   height: 40px;
+     	   border: none;
+     	   background-color: transparent;
+     	   color: white;
+     	   text-align: left;
+     	   font-size: 20px;
+     	   font-family: Cambria;
+     	   cursor: pointer;
+ }
+
+ .button1:hover { border: 2px solid white;
+
+  }
+
+  .head { width: 100%;
+	    height: 70px;
+	    background-color: deepskyblue;
+	    background-image: linear-gradient(to right, deepskyblue, royalblue, darkblue);
+	    margin-top: -16px;
+		margin: 0 auto;
+		position: absolute;
+}
+
+#menu { width: 50px;
+		height: 50px;
+		margin-left: 280px;
+		position: absolute;
+		z-index: 2;
+		top: 10px;
+ }
+
+ #ic { cursor: pointer;
+ 	   top: 10px;
+  }
+
+  #cdoc { position: absolute;
+ 		   margin-left: 500px;
+ 		   border-radius: 10px;
+ 		   width: 350px;
+ 		   height: 25px;
+ 		   margin-top: 22px;
+
+  }
+
+  .data1 { left: 280px;
+  	      width: 600px;
+  	      height: 400px;
+  	      background-color: white;
+  	      position: absolute;
+  	      top: 100px;
+  	      border-radius: 20px;
+
+   }
+
+  .data2 { left: 900px;
+  		   width: 350px;
+  		   height: 400px;
+  		   background-color: white;
+  		   position: relative;
+  		   top: 90px;
+  		   border-radius: 20px;
+
+   }
+
+   .data3 {left: 1280px;
+  		   width: 570px;
+  		   height: 400px;
+  		   background-color: white;
+  		   position: relative;
+  		   bottom: 310px;
+  		   border-radius: 20px;
+
+  		}
+
+  		 .data4 {left: 270px;
+  		   width: 1570px;
+  		   height: 500px;
+  		   background-color: white;
+  		   position: relative;
+  		   bottom: 290px;
+  		   border-radius: 20px;
+
+  		}
+
+   #anon { posiiton: absolute;
+   		   width: 45px;
+   		   height: 45px;
+   		   margin-left: 1350px;
+   		   margin-top: 12px;
+   		   border-radius: 20px;
+
+
+    }
+
+    h2 { position: absolute;
+    	 left: 20px;
+    	 color: darkslateblue;
+    }
+
+    #pic4 { width: 630px;
+    		height: 400px;
+    		position: relative;
+    		left: 70px;
+    		border-radius: 10px;
+    		top: 70px;
+                z-index: 2;
+     }
+
+#pic3 { width: 490px;
+		height: 330px;
+		position: relative;
+		border-radius: 15px;
+		left: 40px;
+		top: 50px;
+
+ }
+
+ #bilog { position: relative;
+ 		  width: 520px;
+ 		  height: 420px;
+ 		  z-index: 1;
+ 		  right: 370px;
+ 		  top: 150px;
+
+
+  }
+
+  #star { position: relative;
+ 		  width: 450px;
+ 		  height: 390px;
+ 		  z-index: 1;
+ 		  left: 105px;
+ 		  bottom: 240px;
+
+
+  }
+
+  #pic1 { position: relative;
+  		  width: 520px;
+  		  height: 340px;
+  		  left: 40px;
+	      top: 50px;
+		  border-radius: 15px;
+   }
+
+  #pic2 { position: relative;
+  	      width: 300px;
+  	      height: 200px;
+  	      top: 100px;
+  	      left: 20px;
+
+   }
+
+   #fgof { position: relative;
+           width: 140px;
+           height: 35px;
+           left: 1300px;
+           bottom: 18px;
+           border-radius: 20px;
+           background-color: skyblue;
+           color: white;
+           border: none;
+           cursor: pointer;
+    }
+
+  #fgof:hover { border: 2px solid white }

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="ProjectFurina.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.fa {
+  padding: 15px;
+  font-size: 40px;
+  width: 30px;
+  text-decoration: none;
+  margin: 10px 2px;
+  left: -400px;
+  top: 10px;
+}
+
+.fa-facebook { color: deepskylue;
+			  
+
+}
+
+.fa-twitter { color: deepskyblue;
+	 		  text-align: center;
+}
+
+.fa-dribbble { color: hotpink;
+	 		   text-align: center;
+}
+
+.fa-linkedin {color: white;
+	 		  text-align: center;
+}
+
+.fa-vimeo { color: black;
+			text-align: center;
+}
+
+
+.fa-google {
+  text-align: center;
+  color: white;
+}
+
+.socialmedia { margin-left: 200px;
+			   margin-top: 50px;
+
+ }
+</style>
+
+</head>
+<body>
+
+	<div class="head">
+		<img src="logohalf1.png" id="img1">
+		<img src="logohalf2.png" id="img2">
+		<input id="search" placeholder="Search">
+		
+	    <button onclick="pageone()"; class="slider">Home</button>
+		<button onclick="pagetwo()"; class="slider">About Us</button>
+		<button onclick="pagethree()"; class="slider">Contact Us</button>
+
+		<button onclick="login()" id="dashboardLog">Login</button>
+	</div>
+
+
+	<div class="show">
+		<div id="darken">
+		</div>
+		<div class="intro">
+			<h1 id="ghjk">THE WAVES WELCOME YOU NOW AT</h1>
+			<h1 id="oeke">FURINE RESORT</h1>
+			<p id="kdoa">The most popular Resort in town</p>
+			<button id="cdoc">BOOK NOW</button>
+		</div>
+
+			<img src="tidalwave.jpg" class="slidepics">
+			<img src="ski.jpg" class="slidepics">
+			<img src="sunset_banner.jpg" class="slidepics">
+
+			<button class="lefty"; onclick="plusDivs(-1)"><</button>
+			<button class="righty"; onclick="plusDivs(1)">></button>
+	</div>
+
+	<!--SEPERATOR IT'S GETTING TOO CROWDED HERE-->
+	<div id="homepage">
+	<center>
+
+	<div class="LEgallery2">
+		<h2 id="depth">DIVE DEEPER</h2>
+		<div class="quadimg">
+		<img class="quintpic"; src="whenyouroom.jpg">
+		<h4>Rooms</h4>
+		<button class="sixbutton">SEE MORE</button>
+	</div>
+
+	<div class="quadimg">
+		<img class="quintpic"; src="ski.jpg">
+		<h4>Activities</h4>
+		<button class="sixbutton">SEE MORE</button>
+		
+	</div>
+
+	<div class="quadimg">
+		<img class="quintpic"; src="tkk.jpg">
+		<h4>Event Hosting</h4>
+		<button class="sixbutton">SEE MORE</button>
+	</div>
+
+	<div class="quadimg">
+		<img class="quintpic"; src="d.jpg">
+		<h4>Services</h4>
+		<button class="sixbutton">SEE MORE</button>
+	</div>
+
+	<div class="quadimg">
+		<img class="quintpic"; src="slider8.jpg">
+		<h4>View</h4>
+		<button class="sixbutton">SEE MORE</button>
+
+	</div>
+
+	<div class="quadimg">
+		<img class="quintpic"; src="tugo.jpg">
+		<h4>Experiences</h4>
+		<button class="sixbutton">SEE MORE</button>
+
+	</div>
+
+
+	</div>
+
+	<div class="LEgallery3">
+		
+		<h2 id="h2a">INSPIRATION</h2>
+		<h2 id="h2b">LOCATION</h2>
+		<iframe id="video" width="850" height="500" src="https://www.youtube.com/embed/EN79SfbcvIE?si=epuhfXa2Kl6sTWAd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<!--NEW PROBLEM!!! NO AVAILABLE VIDEO FOR A FICTIONAL RESORT ::((  -->
+
+		<div class="mapouter">
+			<div class="gmap_canvas">
+				<iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=molugan el salvador city&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+				<a href="https://sprunkin.com/">Sprunki</a>
+			</div>
+		<style>
+			.mapouter{position:relative;
+				text-align:right;
+				width: 850px;
+				height: 500px;}
+			.gmap_canvas {overflow:hidden;
+					background:none!important;
+					width: 850px;
+					height: 500px;}
+			.gmap_iframe {width: 850px!important;
+				   		  height: 500px!important;}
+	    </style>
+		</div>
+		
+	</div>
+
+</center>
+<br>
+	
+
+</div>
+
+<div id="aboutus">
+<p>about us</p>
+
+
+</div>
+
+<div id="contact">
+	
+
+	<div class="customsupp1">
+		<br>
+	<h1 style="margin-left: 50px; top: 15px; font-size: 65px; font-family: Roboto, sans-serif">Contact us</h1>
+		<img src="support.png" id="lo">
+		<h2 style="margin-left: 60px; bottom: 130px; font-size: 26px; position: relative">Welcome to Furine Resort’s official Customer Support, if you’ve got concerns and issues from our services, This is the right place for you.</h2>
+
+		
+		<div class="dpkg">
+			<img src="phone.png" class="suppic">
+			<p class="PpP">Contact No.</p>
+			<h1 style="font-size: 35px;">420-000-0000</h1>
+
+		</div>
+	  
+
+	  
+		<div class="dpkg" style="margin-left: 570px; margin-top: -305px">
+			<img src="fb.svg" class="suppic">
+			<p class="PpP">You can also Reach us out in Facebook</p>
+			<p class="PpP">Redirect to our Facebook page</p>
+			<p class="PpP" style="color: skyblue;">https://facebook.com/Furine.Resort/</p>
+
+
+		</div>
+	</div>
+
+<center>
+	<div class="customsupp2">
+		<h1 id="con">Drop Your Concerns here</h1>
+		<p id="pdk">Or you can put down your concerns at this website. You will be recieving a response at your gmail account within 1-2 days.</p>
+
+
+		<input id="inputcon1" placeholder="Email Address:">
+		<input id="inputcon2" placeholder="Customer type: e.g. Regular, VIP, etc.">
+		<button><img src="dol.png" id="side8"></button>
+		<textarea id="inputcon3" placeholder="Your Concern" cols="10"></textarea>
+		<button id="finale">Submit Response</button>
+		<br><br><br><br><br>
+		<h1 style="position: relative; right: 510px; top: 230px;">Social Media Platforms:</h1>
+
+		<div class="terminus">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-dribbble"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-vimeo"></a>
+	</div>
+
+		<div class="didntask">
+			<h3>Commonly Asked Questions</h3>
+
+			<div class="Q1">
+				<p>What are the prices of the reservation plans available?</p>
+				<button class="downer"><img src="dol.png" class="upper"></button>
+			</div>
+
+			<div class="Q1">
+				<p>What is Furine Resort known for?</p>
+				<button class="downer"><img src="dol.png" class="upper"></button>
+			</div>
+
+			<div class="Q1">
+				<p>Is the resort actually inspired from a video game Character?</p>
+				<button class="downer"><img src="dol.png" class="upper"></button>
+			</div>
+
+		</div>
+
+</div>
+</center>
+
+
+
+</div>
+<div class="footer">
+	<h2 id="h2c">VISIT US</h2>
+
+	<div class="socialmedia">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-dribbble"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+		<a href="#" class="fa fa-vimeo"></a>
+	</div>
+
+	<p id="em">Email Address: furineresortservices@gmail.com</p>
+	<p id="te">FB: Furine Resort</p>
+	<p id="fr">Contact No. 420-000-0000</p>
+	<u id="privacy">Privacy Policy</u>
+	<u id="terms">Terms of Services</u>
+
+</div>
+
+
+<div id="darkener" class="darkin">
+</div>
+<div id="loginhud">
+  
+  <p style="font-size: 30px; line-height: 0.5">ADMIN DASHBOARD LOGIN</p>
+  <p>This will not be an option towards regular customers</p>
+  <img src="faceless.png" id="anony">
+  <br><br><br>
+  <input id="email" class="ebo" placeholder="Enter Email">
+  <br><br>
+  <input id="password" class="ebo" placeholder="Enter Password">
+  <br><br>
+  <button id="admin" onclick="t()">Login</button>
+  <button onclick="publicclass()" id="ekiss">X</button>
+  <br><br>
+  <p style="color: gray">Become an admin to access the Dashboard within a Login</p>
+
+
+</div>
+
+<!--TOO MANY FIELDS TO COMMENT :( -->
+
+
+
+<script src="ProjectFurina.js">
+</script>
+
+</body>
+</html>
